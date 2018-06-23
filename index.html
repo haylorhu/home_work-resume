@@ -3,53 +3,86 @@
 <head>
     <title>haylorhu resume</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+    <script src="//at.alicdn.com/t/font_718137_d37y3y57g4d.js"></script>
 </head>
 <body>
-    <div class="topbar clearfix">
-        <a href="#" class="logo"  alt="logo" style="float: left">
-                    <span class="rs">RS</span><span class="card">card</span>
-         </a>
-        <nav style="float: right;" >
-            <ul class="clearfix">
-                <li><a href="#">关于</a></li>
-                <li><a href="#">技能</a></li>
-                <li><a href="#">文件</a></li>
-                <li><a href="#">经验</a></li>
-                <li><a href="#">价格</a></li>
-                <li><a href="#">博客</a></li>
-                <li><a href="#">日程</a></li>
-                <li><a href="#">联系</a></li>
-            </ul>
-        </nav>
+
+    <div class="topbarOuter">
+        <div class="topbar clearfix">
+            <a href="#" class="logo"  alt="logo" style="float: left">
+                        <span class="rs">RS</span><span class="card">card</span>
+            </a>
+            <nav style="float: right;" >
+                <ul class="clearfix">
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">技能</a></li>
+                    <li><a href="#">文件</a></li>
+                    <li><a href="#">经验</a></li>
+                    <li><a href="#">价格</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">日程</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <div class="banner" style="background-image: url(#)"></div>
+    <div class="banner" >
+        <div class="mask">
+
+        </div>
+    </div>
     <main>
-        <div class="namecard">
-                <div class="picture">
-                    <img src="#" alt="myphot">
+        <div class="namecard ">
+                <div class="picText clearfix">
+                    <div class="picture">
+                        <img src="./img/timg.jpg" alt="myphot">
+                    </div>
+                    <div class="namecardtext">
+                        <span class="welcome">
+                            hello
+                            <span class="triangle"></span>
+                        </span>
+                        <h1>胡鹏举</h1>
+                        <h2>我是前端工程师</h2>
+                        <hr>
+                        <dl>
+                            <dt>年龄</dt>
+                            <dd>18</dd>
+                            <dt>所在城市</dt>
+                            <dd>上海</dd>
+                            <dt>邮箱</dt>
+                            <dd>haylorhu@163.com</dd>
+                            <dt>手机</dt>
+                            <dd>13726265843</dd>
+                        </dl>
+                    </div>
                 </div>
-                <span class="welcome">
-                    <p>hello</p>
-                </span>
-                <h1>我是胡鹏举</h1>
-                <h2>我是前端工程师</h2>
-                <hr>
-                <dl>
-                    <dt>年龄</dt>
-                    <dd>18</dd>
-                    <dt>所在城市</dt>
-                    <dd>上海</dd>
-                    <dt>邮箱</dt>
-                    <dd>haylorhu@163.com</dd>
-                    <dt>手机</dt>
-                    <dd>13726265843</dd>
-                </dl>
-            <footer>
-                <li><a href="#"><img src="#" alt="icon"></a></li>
-                <li><a href="#"><img src="#" alt="icon"></a></li>
-                <li><a href="#"><img src="#" alt="icon"></a></li>
-                <li><a href="#"><img src="#" alt="icon"></a></li>
-                <li><a href="#"><img src="#" alt="icon"></a></li>
+            <footer class="info">
+                <ul class="clearfix">
+                    <li><a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-qq"></use>
+                                </svg>
+                    </a></li>
+                    <li><a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-wechat"></use>
+                                </svg>
+                    </a></li>  <li><a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-weibo"></use>
+                                </svg>
+                    </a></li>
+                <ul>
+                
             </footer>
         </div>
         <a href="#">download resume</a>

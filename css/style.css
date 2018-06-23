@@ -1,11 +1,8 @@
 body{
-    background-color:rgb(36, 36, 36);
+    background-color:rgb(236, 236, 236);
     margin: 0;
 }
-.topbar {
-    padding-top: 34px;
-    padding-left: 17px;
-}
+
 .clearfix::after{
     content: '';
     display: block;
@@ -13,6 +10,31 @@ body{
   }
 a{
     text-decoration: none;
+}
+ul,
+ol
+{
+        list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(222, 222, 222);
+}
+.topbarOuter{
+
+    padding-top: 34px;
+    position: fixed;
+    width: 100%;
+}
+.topbar{
+    padding-left: 17px;
+    padding-right: 17px;
+
 }
 .topbar .logo{
     font-size: 24px;
@@ -46,3 +68,116 @@ a{
 .topbar>nav>ul>li>a:hover{
     border-bottom: 3px solid red;
 }
+.banner{
+    background-image: url(../img/bk.jpg);
+    height: 300px;
+    height: 515px;
+    background-size: cover;
+}
+.banner .mask{
+    height: 515px;
+    background-color: rgba(0,0, 0, 0.6);
+}
+.namecard{
+    max-width: 940px;
+    margin-left: auto;
+    margin: auto;
+    background-color: white;
+
+}
+.namecard .picText{
+    padding: 50px;
+
+
+}
+.namecard .picture{
+    float: left;
+    border: 1px solid #fddedf
+}
+.namecard .namecardtext{
+    float: left;
+    width: 470px;
+}
+.namecard .welcome{
+    color: white;
+    background:#e5686a;
+    padding: 4px 21px;
+    position: relative;
+    display: inline-block;
+}
+.namecard .welcome .triangle{
+    border:10px solid transparent;
+    height: 0px;
+    width:0px;
+    border-left-color:#e5686a;
+    border-top-width: 0px;
+    display: block;
+    position: absolute;
+    top:100%;
+    left: 3px;
+}
+.namecard .namecardtext{
+    margin-left: 60px;
+   
+}
+.namecard .namecardtext >h1{
+    padding-top: 37px;
+}
+.namecard .namecardtext >h2{
+    font-size: 20px;
+    padding-top: 3px;
+
+}
+.namecard hr{
+    margin: 22px 0;
+}
+.namecard dt,
+.namecard dd{
+    float: left;
+    margin-bottom: 20px;
+}
+.namecard dt{
+    width: 30%;
+    font-weight: bold;
+}
+.namecard dd{
+    width: 70%;
+    color: rgb(160, 160, 160);
+}
+.namecard ul li{
+    float: left;
+
+}
+.namecard ul{
+    display: inline-block;
+
+        
+}
+.namecard .info a{
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px;
+    background-color:#e5686a;
+}
+.namecard .info a:hover{
+    border-radius: 50%;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(208, 92, 96);
+}
+.namecard svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.namecard> footer.info{
+    text-align: center;
+    background-color: #e5686a;
+}
+
+
+
+
